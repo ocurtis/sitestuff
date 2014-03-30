@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Twitter Bootstrap Page - Extreme CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="css/mosaic.css" type="text/css" media="screen" />
+		
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+	
+		<script type="text/javascript" src="js/mosaic.1.0.1.js"></script>
+		
+		<script type="text/javascript">  
+			
+			jQuery(function($){
+				
+				$('.circle').mosaic({
+					opacity		:	0.8			//Opacity for overlay (0-1)
+				});
+				
+				$('.fade').mosaic();
+				
+				$('.bar').mosaic({
+					animation	:	'slide'		//fade or slide
+				});
+				
+				$('.bar2').mosaic({
+					animation	:	'slide'		//fade or slide
+				});
+				
+				$('.bar3').mosaic({
+					animation	:	'slide',	//fade or slide
+					anchor_y	:	'top'		//Vertical anchor position
+				});
+				
+				$('.cover').mosaic({
+					animation	:	'slide',	//fade or slide
+					hover_x		:	'400px'		//Horizontal position on hover
+				});
+				
+				$('.cover2').mosaic({
+					animation	:	'slide',	//fade or slide
+					anchor_y	:	'top',		//Vertical anchor position
+					hover_y		:	'80px'		//Vertical position on hover
+				});
+				
+				$('.cover3').mosaic({
+					animation	:	'slide',	//fade or slide
+					hover_x		:	'400px',	//Horizontal position on hover
+					hover_y		:	'300px'		//Vertical position on hover
+				});
+		    
+		    });
+		    
+		</script>
+		
+  </head>
+  
+  
+  
+  
+  
+  
+  
+  
+  <body>
+ 
+  
+		  
+<div class="bg" ></div>
+<div class="jumbotron">
+  <h1>Boston For Two</h1>
+  <p class="jumbotron">The Premier Date Night Guide</p>
+</div>
+
+
+
+
+
+
+
+<div class="scroller_anchor"></div>
+<div class="front">
+<div class="scroller">
+<div class="navbar navbar-inverse">
+    <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">About This Project</a></li>
+              <li><a href="#">Romance the GF</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Partnerships<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Romance the GF</a></li>
+                  <li><a href="#">Local Partners</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Item">
+              </div>
+			  <span>   </span>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Neighborhood">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+</div>
+</div>
+	<div class="btn-group btn-group-justified ">
+	  <div class="btn-group">
+		<button type="button" class="btn btn-default">Left</button>
+	  </div>
+	  <div class="btn-group">
+		<button type="button" class="btn btn-default">Middle</button>
+	  </div>
+	  <div class="btn-group">
+		<button type="button" class="btn btn-default">Right</button>
+	  </div>
+	</div>
+
+	<div class="btn-group btn-group-justified">
+	  <div class="btn-group">
+		<button type="button" class="btn btn-default">Left</button>
+	  </div>
+	  <div class="btn-group">
+		<button type="button" class="btn btn-default">Middle</button>
+	  </div>
+	  <div class="btn-group">
+		<button type="button" class="btn btn-default">Right</button>
+	  </div>
+	</div>
+</div>
+
+
+	<div id="content">
+		
+		<!--Circle-->	
+		<div class="mosaic-block circle">
+			<a href="http://buildinternet.com/project/mosaic" class="mosaic-overlay">&nbsp;</a>
+			<div class="mosaic-backdrop"><img src="http://buildinternet.s3.amazonaws.com/projects/mosaic/mosaic.jpg"/></div>
+		</div>
+	
+		<!--Fade-->
+		<div class="mosaic-block fade">
+			<a href="http://buildinternet.com/project/mightyicons/" target="_blank" class="mosaic-overlay">
+				<div class="details">
+					<h4>Mighty Social Icons</h4>
+					<p>By Build Internet</p>
+				</div>
+			</a>
+			<div class="mosaic-backdrop"><img src="http://buildinternet.s3.amazonaws.com/projects/mosaic/mightyicons.jpg"/></div>
+		</div>
+		
+		<!--Bar-->
+		<div class="mosaic-block bar">
+			<a href="http://www.nonsensesociety.com/2011/01/sloppy-art/" target="_blank" class="mosaic-overlay">
+				<div class="details">
+					<h4>Sloppy Art - A Mess of Inspiration</h4>
+					<p>via the Nonsense Society (image credit: Florian</p>
+				</div>
+			</a>
+			<div class="mosaic-backdrop"><img src="http://buildinternet.s3.amazonaws.com/projects/mosaic/florian.jpg"/></div>
+		</div>
+		
+		<!--Bar 2-->
+		<div class="mosaic-block bar2">
+			<a href="http://www.nonsensesociety.com/2010/12/i-am-not-human-portraits/" target="_blank" class="mosaic-overlay">
+				<div class="details">
+					<h4>I Am Not Human - Unique Self Portraits</h4><br/>
+					<p>via the Nonsense Society (photo credit: Dan Deroches)</p>
+				</div>
+			</a>
+			<div class="mosaic-backdrop"><img src="http://buildinternet.s3.amazonaws.com/projects/mosaic/desroches.jpg"/></div>
+		</div>
+		
+		<!--Bar 3-->
+		<div class="mosaic-block bar3">
+			<a href="http://www.desktopped.com/featured/2010/09/multi-display-setup-with-four-systems-and-a-whole-lot-of-screen-space/" target="_blank" class="mosaic-overlay">
+				<div class="details">
+					<h4>Multi-Display Setup With Four Systems, A Wall of Screens, And 64TB Of Storage</h4>
+					<p>via Desktopped</p>
+				</div>
+			</a>
+			<a href="http://www.nonsensesociety.com/2010/12/i-am-not-human-portraits/" target="_blank" class="mosaic-backdrop"><img src="http://buildinternet.s3.amazonaws.com/projects/mosaic/64tb.jpg"/></a>
+		</div>
+		
+		<!--Cover-->
+		<div class="mosaic-block cover">
+			<div class="mosaic-overlay"><img src="http://buildinternet.s3.amazonaws.com/projects/mosaic/imac.jpg"/></div>
+			<a href="http://www.desktopped.com/featured/2010/12/mounted-imac-and-desk-mod-with-computer-components-built-in/" target="_blank" class="mosaic-backdrop">
+				<div class="details">
+					<h4>Mounted iMac And Desk Mod With Computer Components Built In</h4>
+					<p>via Desktopped</p>
+				</div>
+			</a>
+		</div>
+		
+		<!--Cover 2-->
+		<div class="mosaic-block cover2">
+			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-overlay"><img src="http://buildinternet.s3.amazonaws.com/projects/mosaic/yourather.jpg"/></a>
+			<a href="http://yourather.com/questions/135" target="_blank" class="mosaic-backdrop">
+				<div class="details">
+					<h4>Hardest Choice Ever</h4>
+					<p>via You Rather</p>
+				</div>
+			</a>
+		</div>
+			
+		<!--Cover 3-->
+		<div class="mosaic-block cover3">
+			<div class="mosaic-overlay"><img src="http://buildinternet.s3.amazonaws.com/projects/mosaic/omr-office.jpg"/></div>
+			<a href="http://officeal.com/offices/one-mighty-roar/" target="_blank" class="mosaic-backdrop">
+				<div class="details">
+					<h4>One Mighty Roar Office</h4>
+					<p>via Officeal</p>
+				</div>
+			</a>
+		</div>
+		
+		<div class="clearfix"></div>
+	</div>
+	  
+<div class="container">
+	<div class="row">
+      <div class="col-md-12 text-center"><p>The End.</p></div>
+    </div>
+</div>
+
+</div>
+
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="../lib/jquery/jquery.js"%3E%3C/script%3E'));</script>
+ <script type='text/javascript'>
+		  var jumboHeight = $('.jumbotron').outerHeight();
+		function parallax(){
+			var scrolled = $(window).scrollTop();
+			$('.bg').css('height', (jumboHeight-scrolled) + 'px');
+		}
+
+		$(window)a.scroll(function(e){
+			parallax();
+		});	
+	</script>	
+
+<script type='text/javascript'>//<![CDATA[ 
+
+// This function will be executed when the user scrolls the page.
+$(window).scroll(function(e) {
+    // Get the position of the location where the scroller starts.
+    var scroller_anchor = $(".scroller_anchor").offset().top;
+    
+    // Check if the user has scrolled and the current position is after the scroller's start location and if its not already fixed at the top 
+    if ($(this).scrollTop() >= scroller_anchor && $('.scroller').css('position') != 'fixed') 
+    {    // Change the CSS of the scroller to hilight it and fix it at the top of the screen.
+        $('.scroller').css({
+            'position': 'fixed',
+            'top': '0px'
+        });
+        // Changing the height of the scroller anchor to that of scroller so that there is no change in the overall height of the page.
+        $('.scroller_anchor').css('height', '50px');
+    } 
+    else if ($(this).scrollTop() < scroller_anchor && $('.scroller').css('position') != 'relative') 
+    {    // If the user has scrolled back to the location above the scroller anchor place it back into the content.
+        
+        // Change the height of the scroller anchor to 0 and now we will be adding the scroller back to the content.
+        $('.scroller_anchor').css('height', '0px');
+        
+        // Change the CSS and put it back to its original position.
+        $('.scroller').css({
+            'position': 'relative'
+        });
+    }
+});
+//]]>  
+
+</script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
